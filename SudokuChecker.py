@@ -81,3 +81,6 @@ if flag3 != 0:
     print("All sub-squares are legal.")
 else:
     print("Sub-squares are not legal.")
+    
+if flag1 == flag2 == flag3 == 1:
+    print("The provided board is a valid solution!")
